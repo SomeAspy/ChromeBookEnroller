@@ -1,0 +1,15 @@
+#define KEY_LEFT_CTRL 0x80
+#define KEY_LEFT_SHIFT 0x81
+#define KEY_LEFT_ALT 0x82
+#define KEY_RIGHT_CTRL 0x84
+#define KEY_RIGHT_SHIFT 0x85
+#define KEY_RIGHT_ALT 0x86
+#define KEY_UP_ARROW 0xDA
+#define KEY_DOWN_ARROW 0xD9
+#define KEY_LEFT_ARROW 0xD8
+#define KEY_RIGHT_ARROW 0xD7
+#define KEY_BACKSPACE 0xB2
+#define KEY_TAB 0xB3
+#define KEY_ENTER 0xB0
+#define KEY_ESC 0xB1
+#define KEY_CAPS_LOCK 0xC1

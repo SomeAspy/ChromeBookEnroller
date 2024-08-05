@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:micro",
+    "sketch": "ChromeBookEnroller.ino",
+    "output": "./build",
+    "port": "/dev/ttyACM0"
+}
