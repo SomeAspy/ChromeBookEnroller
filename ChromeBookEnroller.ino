@@ -47,7 +47,7 @@ void setup()
     Keyboard.write(KEY_TAB);
     Keyboard.print(wifi_password);
     Keyboard.write(KEY_ENTER);
-    delay(8000); // Wait for WiFi to finish connecting
+    delay(10000); // Wait for WiFi to finish connecting
 
     // SECTION - Navigate setup slides
     Keyboard.write(KEY_ENTER);
