@@ -6,7 +6,7 @@
 void setup()
 {
     Keyboard.begin();
-    delay(3000); // wait for keyboard initialization
+    delay(3000); // Wait for keyboard initialization
 
     // SECTION - Show version info
     Keyboard.press(KEY_RIGHT_ALT);
@@ -47,13 +47,13 @@ void setup()
     Keyboard.write(KEY_TAB);
     Keyboard.print(wifi_password);
     Keyboard.write(KEY_ENTER);
-    delay(10000); // Wait for WiFi to finish connecting
+    delay(17000); // Wait for WiFi to finish connecting
 
     // SECTION - Navigate setup slides
     Keyboard.write(KEY_ENTER);
-    delay(500); // There seems to be a significant delay in loading the WiFi connection page
+    delay(500); // Loading WiFi slide takes a moment
     Keyboard.write(KEY_ENTER);
-    delay(5500); // Wait for enterprise enrollment to display
+    delay(6500); // Wait for enterprise enrollment to display
 
     // SECTION - Enrollment
     Keyboard.print(enroller_username);
@@ -65,7 +65,7 @@ void setup()
 
 void loop()
 {
-    // Flash lights to indicate script finished
+    // Wig-wag lights to indicate script finished
     RXLED0;
     TXLED1;
     delay(500);

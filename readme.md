@@ -45,7 +45,7 @@ Example `config.cpp`:
 
 ### Timing issues or unexpected behavior
 
-If you have timing issues, try adjusting the `delay(x)` lines in the script. Feel free to open a PR/issue if you consistently hit a timing issue.
+If you have timing issues, try adjusting the `delay(x)` lines in the script. All timings are in milliseconds. Feel free to open a PR/issue if you consistently hit a timing issue.
 
 - `delay(100)` is usually inserted to process some keystrokes.
 - Other `delay(x)` should be commented as to why it is delayed.
