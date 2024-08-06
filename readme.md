@@ -60,6 +60,8 @@ I would suggest the [Arduino Nano Every](https://store-usa.arduino.cc/products/a
 
 I would also suggest wrapping your boards in a single layer of clear tape, as we had a few boards short out/act erratically due to what I assume was shorting.
 
+![IMG_5955](https://github.com/user-attachments/assets/75db2c51-b74e-45c1-b198-c7d6b42c768c)
+
 ## Common Issues
 
 ### Failure rate
