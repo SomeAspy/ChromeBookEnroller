@@ -47,7 +47,7 @@ void setup()
     Keyboard.write(KEY_TAB);
     Keyboard.print(wifi_password);
     Keyboard.write(KEY_ENTER);
-    delay(17000); // Wait for WiFi to finish connecting
+    delay(19000); // Wait for WiFi to finish connecting
 
     // SECTION - Navigate setup slides
     Keyboard.write(KEY_ENTER);
@@ -58,7 +58,7 @@ void setup()
     // SECTION - Enrollment
     Keyboard.print(enroller_username);
     Keyboard.write(KEY_ENTER);
-    delay(2000); // Wait for Google to check the email
+    delay(3500); // Wait for Google to check the email
     Keyboard.print(enroller_password);
     Keyboard.write(KEY_ENTER);
 }
