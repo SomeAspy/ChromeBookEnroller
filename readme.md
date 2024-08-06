@@ -41,7 +41,31 @@ Example `config.cpp`:
 > [!WARNING]  
 > Since this will immediately start and emulate a keyboard, you have to let it run through the cycle before uploading new code, You can do this by opening a blank text file.
 
-## Common Failures
+## Editing tips
+
+If you choose to edit the file to suit your needs better, there are some things you should try to stick to for smooth operation.
+
+- The delay for `Keyboard.begin()` is necessary.
+- After "steps" you should pause for 100ms using `delay(100)`
+- If a shortcut/key combination doesn't seem to register, you may want to insert a `delay(100)` between pressing and releasing the keys.
+- Check out the [Arduino keyboard library for more information](https://www.arduino.cc/reference/en/language/functions/usb/keyboard/)
+
+## Recommended boards
+
+Realistically, this should work on just about any Arduino board, knock-off or not.
+
+In development, a knock-off micro (or nano?) board was used. I could not find the exact one online.
+
+I would suggest the [Arduino Nano Every](https://store-usa.arduino.cc/products/arduino-nano-every), specifically because it is Arduino's cheapest offering, and headers are not pre-soldered on. However, theres a good chance your preferred IT supplier offers these as well.
+
+I would also suggest wrapping your boards in a single layer of clear tape, as we had a few boards short out/act erratically due to what I assume was shorting.
+
+## Common Issues
+
+### Failure rate
+
+There are *some* issues that pop up in edge cases, but these edge cases are infrequent in my own testing (and deployment) of several hundred ChromeBooks. If I had to guess the failure rate is around 5% and even then it just drops you into the enrollment page
+I want to balance the amount of time vs failure rate of this script.
 
 ### Timing issues or unexpected behavior
 
