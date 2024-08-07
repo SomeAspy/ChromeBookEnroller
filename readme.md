@@ -1,6 +1,8 @@
 # ChromeBookEnroller
 
-## Tested version: 124.0.6367.95
+## Tested versions
+
+- 116.0.5845.168
 
 > [!IMPORTANT]  
 > If the folder `ChromeBookEnroller.cpp` is in is *not* named `ChromeBookEnroller` the Arduino IDE will throw an error.

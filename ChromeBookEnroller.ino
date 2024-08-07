@@ -30,12 +30,14 @@ void setup()
 
     // SECTION - Navigate quick WiFi menu
     Keyboard.write(KEY_TAB);
-    Keyboard.write(KEY_ENTER);
-    Keyboard.press(KEY_LEFT_SHIFT);
-    delay(100);
     Keyboard.write(KEY_TAB);
-    delay(100);
-    Keyboard.releaseAll();
+    Keyboard.write(KEY_TAB);
+    Keyboard.write(KEY_TAB); // 4 tabs
+    Keyboard.write(KEY_ENTER);
+    delay(100); // UI takes a few milliseconds to open, without delay it will go into bluetooth
+    Keyboard.write(KEY_TAB);
+    Keyboard.write(KEY_TAB);
+    Keyboard.write(KEY_TAB); // 3 tabs
     Keyboard.write(KEY_ENTER);
     delay(500);
 
@@ -53,7 +55,7 @@ void setup()
     Keyboard.write(KEY_ENTER);
     delay(500); // Loading WiFi slide takes a moment
     Keyboard.write(KEY_ENTER);
-    delay(6500); // Wait for enterprise enrollment to display
+    delay(7000); // Wait for enterprise enrollment to display
 
     // SECTION - Enrollment
     Keyboard.print(enroller_username);
