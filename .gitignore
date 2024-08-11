@@ -1,4 +1,2 @@
-config.cpp
-build
-.vscode/c_cpp_properties.json
-blank.txt
+.venv
+site
