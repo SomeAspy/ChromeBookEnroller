@@ -4,7 +4,7 @@ To use this project, you need an [Arduino board](https://www.arduino.cc/en/hardw
 Realistically, any will work, but I strongly suggest getting the [Arduino Nano Every](https://store.arduino.cc/products/arduino-nano-every).
 
 <figure markdown="span">
-  ![Arduino Nano Every](./content/arduino-nano-every.png)
+  ![Arduino Nano Every](./content/first-steps/arduino-nano-every.png)
   <figcaption>The Nano Every, as shown on Arduino's store</figcaption>
 </figure>
 
@@ -31,6 +31,6 @@ While I strongly suggest getting the original from [Arduino's site](https://stor
     If you end up doing this, I also suggest using a clear tape, so the LEDs can shine through.
 
 <figure markdown="span">
-  ![Arduino Nano knock-off, with tape](./content/arduino-nano-every-taped.jpg)
+  ![Arduino Nano knock-off, with tape](./content/first-steps/arduino-nano-every-taped.jpg)
   <figcaption>One of our Arduino Nano knock-offs, with tape protecting the electronics</figcaption>
 </figure>

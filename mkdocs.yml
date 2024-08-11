@@ -2,6 +2,7 @@
 site_name: ChromeBookEnroller
 site_url: https://cbe.github.aspy.dev
 repo_url: https://github.com/SomeAspy/ChromeBookEnroller
+copyright: Copyright &copy; 2024 Aiden B. (SomeAspy)
 theme:
   name: material
   palette: 
@@ -14,6 +15,8 @@ theme:
     - search.share
     - navigation.instant
     - navigation.tracking
+    - content.code.copy
+    - content.action.view
 
 plugins:
   - search
