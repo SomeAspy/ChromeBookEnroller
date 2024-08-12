@@ -16,6 +16,7 @@ git clone https://github.com/SomeAspy/ChromeBookEnroller
 cd ChromeBookEnroller
 git branch -r
 ```
+
 Switch to the branch closest to your ChromeBook's version.
 
 ---

@@ -1,7 +1,7 @@
 # Overview
 
 This documentation is divided into several section for readability and maintainability.
-You can skip between them at any time using the navigation on the left.
+You can skip between them at any time using the sidebar on the left.
 
 ## Sections
 

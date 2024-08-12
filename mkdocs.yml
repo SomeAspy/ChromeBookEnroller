@@ -1,7 +1,7 @@
-# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: ChromeBookEnroller
 site_url: https://cbe.github.aspy.dev
 repo_url: https://github.com/SomeAspy/ChromeBookEnroller
+edit_uri: edit/docs/docs
 copyright: Copyright &copy; 2024 Aiden B. (SomeAspy)
 theme:
   name: material
@@ -15,11 +15,15 @@ theme:
     - search.share
     - navigation.instant
     - navigation.tracking
+    - navigation.footer
     - content.code.copy
     - content.action.view
+    - content.action.edit
+    - toc.integrate
 
 plugins:
   - search
+  - awesome-pages
   
 markdown_extensions:
   - admonition
